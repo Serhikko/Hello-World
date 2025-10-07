@@ -1,7 +1,6 @@
 #include <iostream>
-using namespace std;
 
-int main(){
-    cout << "Hello, World!" << endl
-    return 0;
+int main() {
+    std::cout << "Hello, World!" << std::endl; // prints Hello, World! to the console
+    return 0; // indicates that the program ended successfully
 }
